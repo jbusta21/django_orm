@@ -1,0 +1,16 @@
+users.objects.create(first_name="John", last_name="Wildcard", email_address="John.Wildcard@dojo.com")
+users.objects.create(first_name="Kenny", last_name="Powers", email_address="Kenny.Powers@dojo.com")
+users.objects.create(first_name="Babe", last_name="Ruth", email_address="Babe.Ruth@dojo.com")
+
+users.objects.all()
+
+users.objects.last()
+
+users.objects.first()
+
+users_three = users.objects.get(id=3)
+users_three.last_name = "pancakes"
+users_three.save()
+
+users_two = users.objects.get(id=2)
+users_two.delete()
