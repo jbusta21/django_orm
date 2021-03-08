@@ -1,6 +1,6 @@
-users.objects.create(first_name="John", last_name="Wildcard", email_address="John.Wildcard@dojo.com")
-users.objects.create(first_name="Kenny", last_name="Powers", email_address="Kenny.Powers@dojo.com")
-users.objects.create(first_name="Babe", last_name="Ruth", email_address="Babe.Ruth@dojo.com")
+users.objects.create(first_name="John", last_name="Wildcard", email_address="John.Wildcard@dojo.com", age="20")
+users.objects.create(first_name="Kenny", last_name="Powers", email_address="Kenny.Powers@dojo.com", age="20")
+users.objects.create(first_name="Babe", last_name="Ruth", email_address="Babe.Ruth@dojo.com", age="20")
 
 users.objects.all()
 
